@@ -1,0 +1,339 @@
+Problem:    PAV_timeConstraint
+Rows:       87
+Columns:    78 (72 integer, 72 binary)
+Non-zeros:  441
+Status:     INTEGER OPTIMAL
+Objective:  utility = 5 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 utility                     5                             
+     2 one_start                   1                           1 
+     3 exit[London]                0                           1 
+     4 exit[Paris]                 0                           1 
+     5 exit[Zurich]                1                           1 
+     6 exit[Venice]                0                           1 
+     7 exit[Prague]                1                           1 
+     8 exit[Berlin]                1                           1 
+     9 enter[London]
+                                   0                           1 
+    10 enter[Paris]                0                           1 
+    11 enter[Zurich]
+                                   1                           1 
+    12 enter[Venice]
+                                   0                           1 
+    13 enter[Prague]
+                                   1                           1 
+    14 enter[Berlin]
+                                   1                           1 
+    15 flow[London]                0            -0             = 
+    16 flow[Paris]                 0            -0             = 
+    17 flow[Zurich]                0            -0             = 
+    18 flow[Venice]                0            -0             = 
+    19 flow[Prague]                0            -0             = 
+    20 flow[Berlin]                0            -0             = 
+    21 no_subtour[London,London]
+                                   0                           5 
+    22 no_subtour[London,Paris]
+                                   0                           5 
+    23 no_subtour[London,Zurich]
+                                  -2                           5 
+    24 no_subtour[London,Venice]
+                                   3                           5 
+    25 no_subtour[London,Prague]
+                                  -1                           5 
+    26 no_subtour[London,Berlin]
+                                  -6                           5 
+    27 no_subtour[Paris,London]
+                                   0                           5 
+    28 no_subtour[Paris,Paris]
+                                   0                           5 
+    29 no_subtour[Paris,Zurich]
+                                  -2                           5 
+    30 no_subtour[Paris,Venice]
+                                   3                           5 
+    31 no_subtour[Paris,Prague]
+                                  -1                           5 
+    32 no_subtour[Paris,Berlin]
+                                  -6                           5 
+    33 no_subtour[Zurich,London]
+                                   2                           5 
+    34 no_subtour[Zurich,Paris]
+                                   2                           5 
+    35 no_subtour[Zurich,Zurich]
+                                   0                           5 
+    36 no_subtour[Zurich,Venice]
+                                   5                           5 
+    37 no_subtour[Zurich,Prague]
+                                   1                           5 
+    38 no_subtour[Zurich,Berlin]
+                                   2                           5 
+    39 no_subtour[Venice,London]
+                                  -3                           5 
+    40 no_subtour[Venice,Paris]
+                                  -3                           5 
+    41 no_subtour[Venice,Zurich]
+                                  -5                           5 
+    42 no_subtour[Venice,Venice]
+                                   0                           5 
+    43 no_subtour[Venice,Prague]
+                                  -4                           5 
+    44 no_subtour[Venice,Berlin]
+                                  -9                           5 
+    45 no_subtour[Prague,London]
+                                   1                           5 
+    46 no_subtour[Prague,Paris]
+                                   1                           5 
+    47 no_subtour[Prague,Zurich]
+                                   5                           5 
+    48 no_subtour[Prague,Venice]
+                                   4                           5 
+    49 no_subtour[Prague,Prague]
+                                   0                           5 
+    50 no_subtour[Prague,Berlin]
+                                  -5                           5 
+    51 no_subtour[Berlin,London]
+                                   0                           5 
+    52 no_subtour[Berlin,Paris]
+                                   0                           5 
+    53 no_subtour[Berlin,Zurich]
+                                  -2                           5 
+    54 no_subtour[Berlin,Venice]
+                                   3                           5 
+    55 no_subtour[Berlin,Prague]
+                                   5                           5 
+    56 no_subtour[Berlin,Berlin]
+                                  -6                           5 
+    57 num_get_visited[A]
+                                   0                          -0 
+    58 num_get_visited[B]
+                                   0                          -0 
+    59 num_get_visited[C]
+                                   0                          -0 
+    60 num_get_visited[D]
+                                   0                          -0 
+    61 at_least[A,1]
+                                   0            -0               
+    62 at_least[A,2]
+                                   1            -0               
+    63 at_least[A,3]
+                                   0            -0               
+    64 at_least[A,4]
+                                   0            -0               
+    65 at_least[A,5]
+                                   0            -0               
+    66 at_least[B,1]
+                                   1            -0               
+    67 at_least[B,2]
+                                   0            -0               
+    68 at_least[B,3]
+                                   0            -0               
+    69 at_least[B,4]
+                                   0            -0               
+    70 at_least[B,5]
+                                   0            -0               
+    71 at_least[C,1]
+                                   0            -0               
+    72 at_least[C,2]
+                                   1            -0               
+    73 at_least[C,3]
+                                   0            -0               
+    74 at_least[C,4]
+                                   0            -0               
+    75 at_least[C,5]
+                                   0            -0               
+    76 at_least[D,1]
+                                   1            -0               
+    77 at_least[D,2]
+                                   0            -0               
+    78 at_least[D,3]
+                                   0            -0               
+    79 at_least[D,4]
+                                   0            -0               
+    80 at_least[D,5]
+                                   0            -0               
+    81 visit_constraint[London]
+                                   0                          -0 
+    82 visit_constraint[Paris]
+                                   0                          -0 
+    83 visit_constraint[Zurich]
+                                   0                          -0 
+    84 visit_constraint[Venice]
+                                   0                          -0 
+    85 visit_constraint[Prague]
+                                   0                          -0 
+    86 visit_constraint[Berlin]
+                                   0                          -0 
+    87 time_contraint
+                                   9                          10 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 is_visited[London]
+                    *              0             0             1 
+     2 is_visited[Paris]
+                    *              0             0             1 
+     3 is_visited[Zurich]
+                    *              1             0             1 
+     4 is_visited[Venice]
+                    *              0             0             1 
+     5 is_visited[Prague]
+                    *              1             0             1 
+     6 is_visited[Berlin]
+                    *              1             0             1 
+     7 get_city[A,1]
+                    *              1             0             1 
+     8 get_city[A,2]
+                    *              1             0             1 
+     9 get_city[A,3]
+                    *              0             0             1 
+    10 get_city[A,4]
+                    *              0             0             1 
+    11 get_city[A,5]
+                    *              0             0             1 
+    12 get_city[A,6]
+                    *              0             0             1 
+    13 get_city[B,1]
+                    *              1             0             1 
+    14 get_city[B,2]
+                    *              0             0             1 
+    15 get_city[B,3]
+                    *              0             0             1 
+    16 get_city[B,4]
+                    *              0             0             1 
+    17 get_city[B,5]
+                    *              0             0             1 
+    18 get_city[B,6]
+                    *              0             0             1 
+    19 get_city[C,1]
+                    *              1             0             1 
+    20 get_city[C,2]
+                    *              1             0             1 
+    21 get_city[C,3]
+                    *              0             0             1 
+    22 get_city[C,4]
+                    *              0             0             1 
+    23 get_city[C,5]
+                    *              0             0             1 
+    24 get_city[C,6]
+                    *              0             0             1 
+    25 get_city[D,1]
+                    *              1             0             1 
+    26 get_city[D,2]
+                    *              0             0             1 
+    27 get_city[D,3]
+                    *              0             0             1 
+    28 get_city[D,4]
+                    *              0             0             1 
+    29 get_city[D,5]
+                    *              0             0             1 
+    30 get_city[D,6]
+                    *              0             0             1 
+    31 connect_city[London,London]
+                    *              0             0             1 
+    32 connect_city[London,Paris]
+                    *              0             0             1 
+    33 connect_city[London,Zurich]
+                    *              0             0             1 
+    34 connect_city[London,Venice]
+                    *              0             0             1 
+    35 connect_city[London,Prague]
+                    *              0             0             1 
+    36 connect_city[London,Berlin]
+                    *              0             0             1 
+    37 connect_city[Paris,London]
+                    *              0             0             1 
+    38 connect_city[Paris,Paris]
+                    *              0             0             1 
+    39 connect_city[Paris,Zurich]
+                    *              0             0             1 
+    40 connect_city[Paris,Venice]
+                    *              0             0             1 
+    41 connect_city[Paris,Prague]
+                    *              0             0             1 
+    42 connect_city[Paris,Berlin]
+                    *              0             0             1 
+    43 connect_city[Zurich,London]
+                    *              0             0             1 
+    44 connect_city[Zurich,Paris]
+                    *              0             0             1 
+    45 connect_city[Zurich,Zurich]
+                    *              0             0             1 
+    46 connect_city[Zurich,Venice]
+                    *              0             0             1 
+    47 connect_city[Zurich,Prague]
+                    *              0             0             1 
+    48 connect_city[Zurich,Berlin]
+                    *              1             0             1 
+    49 connect_city[Venice,London]
+                    *              0             0             1 
+    50 connect_city[Venice,Paris]
+                    *              0             0             1 
+    51 connect_city[Venice,Zurich]
+                    *              0             0             1 
+    52 connect_city[Venice,Venice]
+                    *              0             0             1 
+    53 connect_city[Venice,Prague]
+                    *              0             0             1 
+    54 connect_city[Venice,Berlin]
+                    *              0             0             1 
+    55 connect_city[Prague,London]
+                    *              0             0             1 
+    56 connect_city[Prague,Paris]
+                    *              0             0             1 
+    57 connect_city[Prague,Zurich]
+                    *              1             0             1 
+    58 connect_city[Prague,Venice]
+                    *              0             0             1 
+    59 connect_city[Prague,Prague]
+                    *              0             0             1 
+    60 connect_city[Prague,Berlin]
+                    *              0             0             1 
+    61 connect_city[Berlin,London]
+                    *              0             0             1 
+    62 connect_city[Berlin,Paris]
+                    *              0             0             1 
+    63 connect_city[Berlin,Zurich]
+                    *              0             0             1 
+    64 connect_city[Berlin,Venice]
+                    *              0             0             1 
+    65 connect_city[Berlin,Prague]
+                    *              1             0             1 
+    66 connect_city[Berlin,Berlin]
+                    *              0             0             1 
+    67 number[London]
+                                   0                             
+    68 number[Paris]
+                                   0                             
+    69 number[Zurich]
+                                   2                             
+    70 number[Venice]
+                                  -3                             
+    71 number[Prague]
+                                   1                             
+    72 number[Berlin]
+                                   0                             
+    73 is_start[London]
+                    *              0             0             1 
+    74 is_start[Paris]
+                    *              0             0             1 
+    75 is_start[Zurich]
+                    *              0             0             1 
+    76 is_start[Venice]
+                    *              0             0             1 
+    77 is_start[Prague]
+                    *              0             0             1 
+    78 is_start[Berlin]
+                    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
