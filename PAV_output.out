@@ -1,0 +1,135 @@
+Problem:    PAV
+Rows:       26
+Columns:    30 (30 integer, 30 binary)
+Non-zeros:  93
+Status:     INTEGER OPTIMAL
+Objective:  utility = 5 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 utility                     5                             
+     2 num_get_visited[A]
+                                   0                          -0 
+     3 num_get_visited[B]
+                                   0                          -0 
+     4 num_get_visited[C]
+                                   0                          -0 
+     5 num_get_visited[D]
+                                   0                          -0 
+     6 at_least[A,1]
+                                   1            -0               
+     7 at_least[A,2]
+                                   0            -0               
+     8 at_least[A,3]
+                                   0            -0               
+     9 at_least[A,4]
+                                   0            -0               
+    10 at_least[A,5]
+                                   0            -0               
+    11 at_least[B,1]
+                                   0            -0               
+    12 at_least[B,2]
+                                   1            -0               
+    13 at_least[B,3]
+                                   0            -0               
+    14 at_least[B,4]
+                                   0            -0               
+    15 at_least[B,5]
+                                   0            -0               
+    16 at_least[C,1]
+                                   0            -0               
+    17 at_least[C,2]
+                                   1            -0               
+    18 at_least[C,3]
+                                   0            -0               
+    19 at_least[C,4]
+                                   0            -0               
+    20 at_least[C,5]
+                                   0            -0               
+    21 at_least[D,1]
+                                   1            -0               
+    22 at_least[D,2]
+                                   0            -0               
+    23 at_least[D,3]
+                                   0            -0               
+    24 at_least[D,4]
+                                   0            -0               
+    25 at_least[D,5]
+                                   0            -0               
+    26 visit_k_cities
+                                   3                           3 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 is_visited[London]
+                    *              0             0             1 
+     2 is_visited[Paris]
+                    *              0             0             1 
+     3 is_visited[Zurich]
+                    *              1             0             1 
+     4 is_visited[Venice]
+                    *              1             0             1 
+     5 is_visited[Prague]
+                    *              0             0             1 
+     6 is_visited[Berlin]
+                    *              1             0             1 
+     7 get_city[A,1]
+                    *              1             0             1 
+     8 get_city[A,2]
+                    *              0             0             1 
+     9 get_city[A,3]
+                    *              0             0             1 
+    10 get_city[B,1]
+                    *              1             0             1 
+    11 get_city[B,2]
+                    *              1             0             1 
+    12 get_city[B,3]
+                    *              0             0             1 
+    13 get_city[C,1]
+                    *              1             0             1 
+    14 get_city[C,2]
+                    *              1             0             1 
+    15 get_city[C,3]
+                    *              0             0             1 
+    16 get_city[D,1]
+                    *              1             0             1 
+    17 get_city[D,2]
+                    *              0             0             1 
+    18 get_city[D,3]
+                    *              0             0             1 
+    19 get_city[A,4]
+                    *              0             0             1 
+    20 get_city[A,5]
+                    *              0             0             1 
+    21 get_city[A,6]
+                    *              0             0             1 
+    22 get_city[B,4]
+                    *              0             0             1 
+    23 get_city[B,5]
+                    *              0             0             1 
+    24 get_city[B,6]
+                    *              0             0             1 
+    25 get_city[C,4]
+                    *              0             0             1 
+    26 get_city[C,5]
+                    *              0             0             1 
+    27 get_city[C,6]
+                    *              0             0             1 
+    28 get_city[D,4]
+                    *              0             0             1 
+    29 get_city[D,5]
+                    *              0             0             1 
+    30 get_city[D,6]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
