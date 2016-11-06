@@ -1,0 +1,495 @@
+Problem:    PAV_classmates
+Rows:       116
+Columns:    120 (120 integer, 120 binary)
+Non-zeros:  442
+Status:     INTEGER OPTIMAL
+Objective:  utility = 29 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 utility                    29                             
+     2 num_get_visited[A]
+                                   0                          -0 
+     3 num_get_visited[B]
+                                   0                          -0 
+     4 num_get_visited[C]
+                                   0                          -0 
+     5 num_get_visited[D]
+                                   0                          -0 
+     6 num_get_visited[E]
+                                   0                          -0 
+     7 num_get_visited[F]
+                                   0                          -0 
+     8 num_get_visited[G]
+                                   0                          -0 
+     9 num_get_visited[H]
+                                   0                          -0 
+    10 num_get_visited[I]
+                                   0                          -0 
+    11 num_get_visited[J]
+                                   0                          -0 
+    12 num_get_visited[K]
+                                   0                          -0 
+    13 num_get_visited[L]
+                                   0                          -0 
+    14 num_get_visited[M]
+                                   0                          -0 
+    15 num_get_visited[N]
+                                   0                          -0 
+    16 num_get_visited[O]
+                                   0                          -0 
+    17 num_get_visited[P]
+                                   0                          -0 
+    18 num_get_visited[Q]
+                                   0                          -0 
+    19 num_get_visited[R]
+                                   0                          -0 
+    20 num_get_visited[S]
+                                   0                          -0 
+    21 at_least[A,1]
+                                   0            -0               
+    22 at_least[A,2]
+                                   0            -0               
+    23 at_least[A,3]
+                                   1            -0               
+    24 at_least[A,4]
+                                   0            -0               
+    25 at_least[A,5]
+                                   0            -0               
+    26 at_least[B,1]
+                                   0            -0               
+    27 at_least[B,2]
+                                   0            -0               
+    28 at_least[B,3]
+                                   0            -0               
+    29 at_least[B,4]
+                                   0            -0               
+    30 at_least[B,5]
+                                   0            -0               
+    31 at_least[C,1]
+                                   0            -0               
+    32 at_least[C,2]
+                                   1            -0               
+    33 at_least[C,3]
+                                   0            -0               
+    34 at_least[C,4]
+                                   0            -0               
+    35 at_least[C,5]
+                                   0            -0               
+    36 at_least[D,1]
+                                   0            -0               
+    37 at_least[D,2]
+                                   1            -0               
+    38 at_least[D,3]
+                                   0            -0               
+    39 at_least[D,4]
+                                   0            -0               
+    40 at_least[D,5]
+                                   0            -0               
+    41 at_least[E,1]
+                                   0            -0               
+    42 at_least[E,2]
+                                   1            -0               
+    43 at_least[E,3]
+                                   0            -0               
+    44 at_least[E,4]
+                                   0            -0               
+    45 at_least[E,5]
+                                   0            -0               
+    46 at_least[F,1]
+                                   1            -0               
+    47 at_least[F,2]
+                                   0            -0               
+    48 at_least[F,3]
+                                   0            -0               
+    49 at_least[F,4]
+                                   0            -0               
+    50 at_least[F,5]
+                                   0            -0               
+    51 at_least[G,1]
+                                   0            -0               
+    52 at_least[G,2]
+                                   0            -0               
+    53 at_least[G,3]
+                                   1            -0               
+    54 at_least[G,4]
+                                   0            -0               
+    55 at_least[G,5]
+                                   0            -0               
+    56 at_least[H,1]
+                                   0            -0               
+    57 at_least[H,2]
+                                   0            -0               
+    58 at_least[H,3]
+                                   1            -0               
+    59 at_least[H,4]
+                                   0            -0               
+    60 at_least[H,5]
+                                   0            -0               
+    61 at_least[I,1]
+                                   0            -0               
+    62 at_least[I,2]
+                                   1            -0               
+    63 at_least[I,3]
+                                   0            -0               
+    64 at_least[I,4]
+                                   0            -0               
+    65 at_least[I,5]
+                                   0            -0               
+    66 at_least[J,1]
+                                   0            -0               
+    67 at_least[J,2]
+                                   1            -0               
+    68 at_least[J,3]
+                                   0            -0               
+    69 at_least[J,4]
+                                   0            -0               
+    70 at_least[J,5]
+                                   0            -0               
+    71 at_least[K,1]
+                                   0            -0               
+    72 at_least[K,2]
+                                   0            -0               
+    73 at_least[K,3]
+                                   1            -0               
+    74 at_least[K,4]
+                                   0            -0               
+    75 at_least[K,5]
+                                   0            -0               
+    76 at_least[L,1]
+                                   0            -0               
+    77 at_least[L,2]
+                                   1            -0               
+    78 at_least[L,3]
+                                   0            -0               
+    79 at_least[L,4]
+                                   0            -0               
+    80 at_least[L,5]
+                                   0            -0               
+    81 at_least[M,1]
+                                   0            -0               
+    82 at_least[M,2]
+                                   0            -0               
+    83 at_least[M,3]
+                                   1            -0               
+    84 at_least[M,4]
+                                   0            -0               
+    85 at_least[M,5]
+                                   0            -0               
+    86 at_least[N,1]
+                                   0            -0               
+    87 at_least[N,2]
+                                   0            -0               
+    88 at_least[N,3]
+                                   1            -0               
+    89 at_least[N,4]
+                                   0            -0               
+    90 at_least[N,5]
+                                   0            -0               
+    91 at_least[O,1]
+                                   1            -0               
+    92 at_least[O,2]
+                                   0            -0               
+    93 at_least[O,3]
+                                   0            -0               
+    94 at_least[O,4]
+                                   0            -0               
+    95 at_least[O,5]
+                                   0            -0               
+    96 at_least[P,1]
+                                   0            -0               
+    97 at_least[P,2]
+                                   0            -0               
+    98 at_least[P,3]
+                                   1            -0               
+    99 at_least[P,4]
+                                   0            -0               
+   100 at_least[P,5]
+                                   0            -0               
+   101 at_least[Q,1]
+                                   0            -0               
+   102 at_least[Q,2]
+                                   0            -0               
+   103 at_least[Q,3]
+                                   1            -0               
+   104 at_least[Q,4]
+                                   0            -0               
+   105 at_least[Q,5]
+                                   0            -0               
+   106 at_least[R,1]
+                                   0            -0               
+   107 at_least[R,2]
+                                   0            -0               
+   108 at_least[R,3]
+                                   1            -0               
+   109 at_least[R,4]
+                                   0            -0               
+   110 at_least[R,5]
+                                   0            -0               
+   111 at_least[S,1]
+                                   0            -0               
+   112 at_least[S,2]
+                                   1            -0               
+   113 at_least[S,3]
+                                   0            -0               
+   114 at_least[S,4]
+                                   0            -0               
+   115 at_least[S,5]
+                                   0            -0               
+   116 visit_k_cities
+                                   3                           3 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 is_visited[London]
+                    *              1             0             1 
+     2 is_visited[Paris]
+                    *              1             0             1 
+     3 is_visited[Prague]
+                    *              0             0             1 
+     4 is_visited[Berlin]
+                    *              0             0             1 
+     5 is_visited[Zurich]
+                    *              0             0             1 
+     6 is_visited[Venice]
+                    *              1             0             1 
+     7 get_city[A,1]
+                    *              1             0             1 
+     8 get_city[A,2]
+                    *              1             0             1 
+     9 get_city[A,3]
+                    *              1             0             1 
+    10 get_city[B,1]
+                    *              0             0             1 
+    11 get_city[B,2]
+                    *              0             0             1 
+    12 get_city[B,3]
+                    *              0             0             1 
+    13 get_city[C,1]
+                    *              1             0             1 
+    14 get_city[C,2]
+                    *              1             0             1 
+    15 get_city[C,3]
+                    *              0             0             1 
+    16 get_city[D,1]
+                    *              1             0             1 
+    17 get_city[D,2]
+                    *              1             0             1 
+    18 get_city[D,3]
+                    *              0             0             1 
+    19 get_city[E,1]
+                    *              1             0             1 
+    20 get_city[E,2]
+                    *              1             0             1 
+    21 get_city[E,3]
+                    *              0             0             1 
+    22 get_city[F,1]
+                    *              1             0             1 
+    23 get_city[F,2]
+                    *              0             0             1 
+    24 get_city[F,3]
+                    *              0             0             1 
+    25 get_city[G,1]
+                    *              1             0             1 
+    26 get_city[G,2]
+                    *              1             0             1 
+    27 get_city[G,3]
+                    *              1             0             1 
+    28 get_city[H,1]
+                    *              1             0             1 
+    29 get_city[H,2]
+                    *              1             0             1 
+    30 get_city[H,3]
+                    *              1             0             1 
+    31 get_city[I,1]
+                    *              1             0             1 
+    32 get_city[I,2]
+                    *              1             0             1 
+    33 get_city[I,3]
+                    *              0             0             1 
+    34 get_city[J,1]
+                    *              1             0             1 
+    35 get_city[J,2]
+                    *              1             0             1 
+    36 get_city[J,3]
+                    *              0             0             1 
+    37 get_city[K,1]
+                    *              1             0             1 
+    38 get_city[K,2]
+                    *              1             0             1 
+    39 get_city[K,3]
+                    *              1             0             1 
+    40 get_city[L,1]
+                    *              1             0             1 
+    41 get_city[L,2]
+                    *              1             0             1 
+    42 get_city[L,3]
+                    *              0             0             1 
+    43 get_city[M,1]
+                    *              1             0             1 
+    44 get_city[M,2]
+                    *              1             0             1 
+    45 get_city[M,3]
+                    *              1             0             1 
+    46 get_city[N,1]
+                    *              1             0             1 
+    47 get_city[N,2]
+                    *              1             0             1 
+    48 get_city[N,3]
+                    *              1             0             1 
+    49 get_city[O,1]
+                    *              1             0             1 
+    50 get_city[O,2]
+                    *              0             0             1 
+    51 get_city[O,3]
+                    *              0             0             1 
+    52 get_city[P,1]
+                    *              1             0             1 
+    53 get_city[P,2]
+                    *              1             0             1 
+    54 get_city[P,3]
+                    *              1             0             1 
+    55 get_city[Q,1]
+                    *              1             0             1 
+    56 get_city[Q,2]
+                    *              1             0             1 
+    57 get_city[Q,3]
+                    *              1             0             1 
+    58 get_city[R,1]
+                    *              1             0             1 
+    59 get_city[R,2]
+                    *              1             0             1 
+    60 get_city[R,3]
+                    *              1             0             1 
+    61 get_city[S,1]
+                    *              1             0             1 
+    62 get_city[S,2]
+                    *              1             0             1 
+    63 get_city[S,3]
+                    *              0             0             1 
+    64 get_city[A,4]
+                    *              0             0             1 
+    65 get_city[A,5]
+                    *              0             0             1 
+    66 get_city[A,6]
+                    *              0             0             1 
+    67 get_city[B,4]
+                    *              0             0             1 
+    68 get_city[B,5]
+                    *              0             0             1 
+    69 get_city[B,6]
+                    *              0             0             1 
+    70 get_city[C,4]
+                    *              0             0             1 
+    71 get_city[C,5]
+                    *              0             0             1 
+    72 get_city[C,6]
+                    *              0             0             1 
+    73 get_city[D,4]
+                    *              0             0             1 
+    74 get_city[D,5]
+                    *              0             0             1 
+    75 get_city[D,6]
+                    *              0             0             1 
+    76 get_city[E,4]
+                    *              0             0             1 
+    77 get_city[E,5]
+                    *              0             0             1 
+    78 get_city[E,6]
+                    *              0             0             1 
+    79 get_city[F,4]
+                    *              0             0             1 
+    80 get_city[F,5]
+                    *              0             0             1 
+    81 get_city[F,6]
+                    *              0             0             1 
+    82 get_city[G,4]
+                    *              0             0             1 
+    83 get_city[G,5]
+                    *              0             0             1 
+    84 get_city[G,6]
+                    *              0             0             1 
+    85 get_city[H,4]
+                    *              0             0             1 
+    86 get_city[H,5]
+                    *              0             0             1 
+    87 get_city[H,6]
+                    *              0             0             1 
+    88 get_city[I,4]
+                    *              0             0             1 
+    89 get_city[I,5]
+                    *              0             0             1 
+    90 get_city[I,6]
+                    *              0             0             1 
+    91 get_city[J,4]
+                    *              0             0             1 
+    92 get_city[J,5]
+                    *              0             0             1 
+    93 get_city[J,6]
+                    *              0             0             1 
+    94 get_city[K,4]
+                    *              0             0             1 
+    95 get_city[K,5]
+                    *              0             0             1 
+    96 get_city[K,6]
+                    *              0             0             1 
+    97 get_city[L,4]
+                    *              0             0             1 
+    98 get_city[L,5]
+                    *              0             0             1 
+    99 get_city[L,6]
+                    *              0             0             1 
+   100 get_city[M,4]
+                    *              0             0             1 
+   101 get_city[M,5]
+                    *              0             0             1 
+   102 get_city[M,6]
+                    *              0             0             1 
+   103 get_city[N,4]
+                    *              0             0             1 
+   104 get_city[N,5]
+                    *              0             0             1 
+   105 get_city[N,6]
+                    *              0             0             1 
+   106 get_city[O,4]
+                    *              0             0             1 
+   107 get_city[O,5]
+                    *              0             0             1 
+   108 get_city[O,6]
+                    *              0             0             1 
+   109 get_city[P,4]
+                    *              0             0             1 
+   110 get_city[P,5]
+                    *              0             0             1 
+   111 get_city[P,6]
+                    *              0             0             1 
+   112 get_city[Q,4]
+                    *              0             0             1 
+   113 get_city[Q,5]
+                    *              0             0             1 
+   114 get_city[Q,6]
+                    *              0             0             1 
+   115 get_city[R,4]
+                    *              0             0             1 
+   116 get_city[R,5]
+                    *              0             0             1 
+   117 get_city[R,6]
+                    *              0             0             1 
+   118 get_city[S,4]
+                    *              0             0             1 
+   119 get_city[S,5]
+                    *              0             0             1 
+   120 get_city[S,6]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
