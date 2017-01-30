@@ -1,2 +1,2 @@
 # computational-microeconomics-final-project
-Analysis and comparison between Quadratic Voting (QV) and Proportional Approval Voting (PAV)
+This is the final project of Advanced Topics in Computer Science: Computational Microeconomics (COMPSCI 590.04) at Duke University. We apply the two voting mechanisms, namely Quadratic Voting (QV) and Proportional Approval Voting (PAV), to a common real world setting of deciding on cities to visit during a group vacation. While QV does better in terms of efficiency and PAV aims for fairness, we analyze their overall performances under different criteria.
